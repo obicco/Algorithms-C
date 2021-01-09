@@ -1,7 +1,7 @@
 # CLabs
 ## Table of contents:
-### - DalProlblemaAlProgramma
-  
+### DalProlblemaAlProgramma
+  *
 ### Lab00
   * es1
   * es2

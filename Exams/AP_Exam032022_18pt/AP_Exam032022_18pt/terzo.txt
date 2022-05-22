@@ -1,0 +1,4 @@
+3
+PiazzaCastello PortaPalatina
+PortaPalatina GiardiniReali
+GiardiniReali MoleAntonelliana

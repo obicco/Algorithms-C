@@ -1,0 +1,5 @@
+Un vettore paste di n struct descrive le tipologie e le disponibilità dei pasticcini realizzati da un laboratorio di pasticceria. Ogni struct consta di 3 campi interi non negativi:
+- codice identifica la tipologia di pasticcino (ad esempio 3 bigné, 5 crostatina, etc.)
+- peso indica il peso in grammi di ogni pasticcino
+- quantita indica il numero di pasticcini di quella tipologia disponibili.
+Si scriva un programma C che, ricevuti come parametro il vettore, la sua lunghezza e un intero che rappresenta il peso del vassoio di pasticcini da comporre, calcoli l'insieme di pasticcini il cui peso si avvicini il più possibile (al più eguagli) al peso richiesto, tenendo conto delle disponibilità di ogni tipologia. Si proceda quindi a stampare tale insieme, specificando per ogni tipologia di pasticcini la sua cardinalità, ed il peso finale del vassoio. Nel caso di più soluzioni equivalenti è sufficiente stamparne una. Si supponga inoltre che l'utente non abbia alcuna preferenza sulla tipologia di pasticcini selezionati.

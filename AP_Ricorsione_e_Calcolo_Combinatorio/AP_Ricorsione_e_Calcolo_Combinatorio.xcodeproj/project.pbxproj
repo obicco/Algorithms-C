@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		754C74D02586653000E82386 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 754C74CF2586653000E82386 /* main.c */; };
+		75D48C0D26D610A700A0F997 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 75D48C0C26D610A700A0F997 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		754C74CA2586653000E82386 /* CopyFiles */ = {
+		75D48C0726D610A700A0F997 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		754C74CC2586653000E82386 /* Lab08es3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab08es3; sourceTree = BUILT_PRODUCTS_DIR; };
-		754C74CF2586653000E82386 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		75D48C0926D610A700A0F997 /* AP_Ricorsione_e_Calcolo_Combinatorio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AP_Ricorsione_e_Calcolo_Combinatorio; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D48C0C26D610A700A0F997 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		754C74C92586653000E82386 /* Frameworks */ = {
+		75D48C0626D610A700A0F997 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,64 +38,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		754C74C32586653000E82386 = {
+		75D48C0026D610A600A0F997 = {
 			isa = PBXGroup;
 			children = (
-				754C74CE2586653000E82386 /* Lab08es3 */,
-				754C74CD2586653000E82386 /* Products */,
+				75D48C0B26D610A700A0F997 /* AP_Ricorsione_e_Calcolo_Combinatorio */,
+				75D48C0A26D610A700A0F997 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		754C74CD2586653000E82386 /* Products */ = {
+		75D48C0A26D610A700A0F997 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				754C74CC2586653000E82386 /* Lab08es3 */,
+				75D48C0926D610A700A0F997 /* AP_Ricorsione_e_Calcolo_Combinatorio */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		754C74CE2586653000E82386 /* Lab08es3 */ = {
+		75D48C0B26D610A700A0F997 /* AP_Ricorsione_e_Calcolo_Combinatorio */ = {
 			isa = PBXGroup;
 			children = (
-				754C74CF2586653000E82386 /* main.c */,
+				75D48C0C26D610A700A0F997 /* main.c */,
 			);
-			path = Lab08es3;
+			path = AP_Ricorsione_e_Calcolo_Combinatorio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		754C74CB2586653000E82386 /* Lab08es3 */ = {
+		75D48C0826D610A700A0F997 /* AP_Ricorsione_e_Calcolo_Combinatorio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 754C74D32586653000E82386 /* Build configuration list for PBXNativeTarget "Lab08es3" */;
+			buildConfigurationList = 75D48C1026D610A700A0F997 /* Build configuration list for PBXNativeTarget "AP_Ricorsione_e_Calcolo_Combinatorio" */;
 			buildPhases = (
-				754C74C82586653000E82386 /* Sources */,
-				754C74C92586653000E82386 /* Frameworks */,
-				754C74CA2586653000E82386 /* CopyFiles */,
+				75D48C0526D610A700A0F997 /* Sources */,
+				75D48C0626D610A700A0F997 /* Frameworks */,
+				75D48C0726D610A700A0F997 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Lab08es3;
-			productName = Lab08es3;
-			productReference = 754C74CC2586653000E82386 /* Lab08es3 */;
+			name = AP_Ricorsione_e_Calcolo_Combinatorio;
+			productName = AP_Ricorsione_e_Calcolo_Combinatorio;
+			productReference = 75D48C0926D610A700A0F997 /* AP_Ricorsione_e_Calcolo_Combinatorio */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		754C74C42586653000E82386 /* Project object */ = {
+		75D48C0126D610A700A0F997 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					754C74CB2586653000E82386 = {
-						CreatedOnToolsVersion = 12.2;
+					75D48C0826D610A700A0F997 = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 754C74C72586653000E82386 /* Build configuration list for PBXProject "Lab08es3" */;
+			buildConfigurationList = 75D48C0426D610A700A0F997 /* Build configuration list for PBXProject "AP_Ricorsione_e_Calcolo_Combinatorio" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +103,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 754C74C32586653000E82386;
-			productRefGroup = 754C74CD2586653000E82386 /* Products */;
+			mainGroup = 75D48C0026D610A600A0F997;
+			productRefGroup = 75D48C0A26D610A700A0F997 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				754C74CB2586653000E82386 /* Lab08es3 */,
+				75D48C0826D610A700A0F997 /* AP_Ricorsione_e_Calcolo_Combinatorio */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		754C74C82586653000E82386 /* Sources */ = {
+		75D48C0526D610A700A0F997 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				754C74D02586653000E82386 /* main.c in Sources */,
+				75D48C0D26D610A700A0F997 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		754C74D12586653000E82386 /* Debug */ = {
+		75D48C0E26D610A700A0F997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,7 +176,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		754C74D22586653000E82386 /* Release */ = {
+		75D48C0F26D610A700A0F997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,17 +229,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		754C74D42586653000E82386 /* Debug */ = {
+		75D48C1126D610A700A0F997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L663A39652;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -247,10 +246,9 @@
 			};
 			name = Debug;
 		};
-		754C74D52586653000E82386 /* Release */ = {
+		75D48C1226D610A700A0F997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L663A39652;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -261,25 +259,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		754C74C72586653000E82386 /* Build configuration list for PBXProject "Lab08es3" */ = {
+		75D48C0426D610A700A0F997 /* Build configuration list for PBXProject "AP_Ricorsione_e_Calcolo_Combinatorio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				754C74D12586653000E82386 /* Debug */,
-				754C74D22586653000E82386 /* Release */,
+				75D48C0E26D610A700A0F997 /* Debug */,
+				75D48C0F26D610A700A0F997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		754C74D32586653000E82386 /* Build configuration list for PBXNativeTarget "Lab08es3" */ = {
+		75D48C1026D610A700A0F997 /* Build configuration list for PBXNativeTarget "AP_Ricorsione_e_Calcolo_Combinatorio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				754C74D42586653000E82386 /* Debug */,
-				754C74D52586653000E82386 /* Release */,
+				75D48C1126D610A700A0F997 /* Debug */,
+				75D48C1226D610A700A0F997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 754C74C42586653000E82386 /* Project object */;
+	rootObject = 75D48C0126D610A700A0F997 /* Project object */;
 }

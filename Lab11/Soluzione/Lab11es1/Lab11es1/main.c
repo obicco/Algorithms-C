@@ -106,10 +106,10 @@ void generatePrograms(elements_t *t, diagonals_t *d, int max) {
     float bestval = -1.0;
     combRip(t, d, DP, 0, prog, 0, bestprog, &bestval, &bonus, &numd, 0);
     if (numd > 0) {
-        printf("TOT = %f\n", bestval);
+        printf("TOT = %.2f\n", bestval);
         for (int i = 0; i < numd; i++) {
             diag = bestprog[i];
-            printf("DIAG %d > %.3f %s\n", diag, d->vd[diag].val, ((bonus == i) ? "* 1.5 (BONUS)" : ""));
+            printf("DIAG %d > %.2f %s\n", diag, d->vd[diag].val, ((bonus == i) ? "* 1.5 (BONUS)" : ""));
             for (int j = 0; j < d->vd[diag].ne; j++) printf("%s ", t->velem[d->vd[diag].elements[j]].name);
             printf("\n");
         }

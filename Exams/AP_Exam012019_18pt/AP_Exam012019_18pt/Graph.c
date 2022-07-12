@@ -34,7 +34,7 @@ Graph GRAPHinit(int V) {
     g->V = V;
     g->E = 0;
     g->madj = malloc(V*sizeof(int*));
-    for (int i = 0; i < V; i++) g->madj = calloc(V, sizeof(int));
+    for (int i = 0; i < V; i++) g->madj[i] = calloc(V, sizeof(int));
     return g;
 }
 

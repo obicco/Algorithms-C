@@ -1,4 +1,4 @@
-# CLabs
+# C Labs on algorhitms and advanced data structures course
 ## Table of contents:
 ### DalProlblemaAlProgramma
   *

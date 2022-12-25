@@ -1,7 +1,6 @@
-# C Labs on algorhitms and advanced data structures course
+# C exercises on algorhitms and advanced data structures
 ## Table of contents:
-### DalProlblemaAlProgramma
-  *
+
 ### Lab00
   * es1
   * es2

@@ -2,7 +2,6 @@
 
 C exercises on algorithms and advanced data structures, developed as part of the **Algorithms and Programming (AP)** course at Politecnico di Torino.
 
-**Author:** Oskar Bich (s226421)  
 **Language:** C  
 **Period:** 2020 – 2022
 
